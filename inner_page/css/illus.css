@@ -211,7 +211,8 @@
     }
     .visual img{
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -254,10 +255,16 @@
       position: absolute;
       top: 80vh;
     }
-    .illus-bg{
-      width: 1300px;
+    .illus-group{
+      width: 100%;
       margin: 70px auto;
       overflow: hidden;
+    }
+    .illus-bg{
+      width: 100%;
+      margin: 70px auto;
+      overflow: hidden;
+  
     }
     .illus-bg img{
       width: 100%;
